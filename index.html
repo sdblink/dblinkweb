@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBlink - Innovation numérique & DATA</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6H6J0W2eaQffstDZI8pbszv" crossorigin="anonymous">
-
+   <!--  <script src="scripts.js" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"  crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
 </head>
 <body>
     <header>
@@ -16,24 +19,24 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="hero-text">
                 <h1>Innovation numérique & DATA</h1>
                 <p>DBlink est une entreprise spécialisée dans la conception, le développement et l’architecture technique des bases de données de production, les DevOps et les DataOps.</p>
-                <a href="services.html" class="cta-button">Découvrir nos services</a>
+                <a href="#services" class="cta-button">Découvrir nos services</a>
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <h2>Nos services</h2>
             <div class="services-container">
                 <div class="service-card">
@@ -54,23 +57,27 @@
             </div>
         </section>
 
-        <section class="about">
-            <h2>À propos de dblink</h2>
+        <section class="about" id="about">
+            <h2>À propos de DBlink</h2>
             <p>DBlink est une entreprise expérimentée dans les domaines digital, bancaire, e-commerce, telecom, ERP et cloud. Notre mission est d'aider nos clients à tirer le meilleur parti de leurs données et de leur infrastructure technologique.</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Si vous avez des questions ou souhaitez en savoir plus sur nos services, n'hésitez pas à nous contacter :</p>
+            <p>Téléphone: +33 (0)1 23 45 67 89 </p>
         </section>
     </main>
 
     <footer>
         <div class="footer-nav">
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="footer-contact">
-            <p>Téléphone: +33 (0)1 23 45 67 89 </p>
-        </div>
+    </footer>   
  </body>
  </html>
