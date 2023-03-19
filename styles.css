@@ -1,0 +1,166 @@
+/* Réinitialisation de base et typographie */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #333;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Section Héro */
+.hero {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #0f5bbc;
+}
+
+/* Services */
+.services {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.service-card {
+    display: inline-block;
+    width: calc(33% - 2rem);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* À propos */
+.about {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin-left: 1rem;
+}
+
+.footer-nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Styles pour les appareils mobiles */
+@media (max-width: 768px) {
+    .service-card {
+        width: calc(50% - 2rem);
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-card {
+        width: 100%;
+    }
+}
+
