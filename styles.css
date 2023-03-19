@@ -53,7 +53,8 @@ nav ul li a {
 
 /* Section Héro */
 .hero {
-    background-image: url('images/hero-bg.jpg');
+    background: linear-gradient(160deg, #333 0%, #2a2a2a 100%);
+   /* background-image: url('images/hero-bg.jpg'); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -61,7 +62,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: white; 
 }
 
 .hero-text {
