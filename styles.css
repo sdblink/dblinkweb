@@ -185,11 +185,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   
   .copyright {
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 0px;
   }
   
   
