@@ -181,16 +181,17 @@ footer {
     font-weight: bold;
 }
 
-.footer {
-    position: relative;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .copyright {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     font-size: 14px;
+    margin-right: 10px;
   }
+  
   
 /* Styles pour les appareils mobiles */
 @media (max-width: 768px) {
