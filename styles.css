@@ -71,6 +71,7 @@ nav ul li a {
 
 .hero h1 {
     font-size: 5rem;
+    margin-bottom: 10px; /* Ajustez cette valeur pour modifier l'espace */
 }
 
 .cta-button {
