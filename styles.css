@@ -88,6 +88,8 @@ nav ul li a {
     cursor: pointer;
     border: none;
     outline: none;
+    margin-top: 20px; /* Ajustez cette valeur pour modifier l'espace */
+}
 }
 
 .cta-button:hover {
