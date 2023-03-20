@@ -67,7 +67,7 @@ nav ul li a {
 
 .hero-text {
     max-width: 800px;
-    padding-top: 0px; /* réduisez cette valeur pour rapprocher le texte du haut de la section */
+    padding-top: -10px; /* réduisez cette valeur pour rapprocher le texte du haut de la section */
 }
 
 .hero h1 {
