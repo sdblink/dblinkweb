@@ -1,0 +1,29 @@
+title: "Mon blog"
+email: "contact@dblink.fr"
+description: "Blog DBLINK"
+baseurl: "/blog" # Si votre blog est à la racine du domaine, laissez cette valeur vide.
+url: "https://mondomaine.com" # L'URL principale de votre site
+twitter_username: monpseudo
+github_username: monpseudo
+
+# Paramètres de build
+markdown: kramdown
+theme: minima
+
+# Paramètres de pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Paramètres d'exclusion
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
