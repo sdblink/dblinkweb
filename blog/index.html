@@ -6,12 +6,11 @@ layout: default
     <ul>
         {% for post in site.posts %}
             <li>
-                <a href="{{ post.url | relative_url }}/blog}}>{{ post.title }}</a>
+                <a href="{{ site.baseurl }}/blog{{ post.url }}">{{ post.title }}</a>
                 <p>{{ post.excerpt }}</p>
                 <small>{{ post.date | date: "%B %d, %Y" }}</small>
             </li>
         {% endfor %}
     </ul>
 </section>
-
 
