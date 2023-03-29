@@ -1,10 +1,10 @@
 title: "Mon blog"
 email: "contact@dblink.fr"
 description: "Blog DBLINK"
-baseurl: "/blog" # Si votre blog est à la racine du domaine, laissez cette valeur vide.
+baseurl: "/dblinkweb" # Si votre blog est à la racine du domaine, laissez cette valeur vide.
 url: "https://mondomaine.com" # L'URL principale de votre site
-twitter_username: monpseudo
-github_username: monpseudo
+twitter_username: sdblink
+github_username: sdblink
 
 # Paramètres de build
 markdown: kramdown
